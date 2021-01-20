@@ -1,0 +1,200 @@
+body{
+	font-family: 'Open Sans', 'sans-serif';
+	position: relative;
+	font-size: 16px;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: -webkit-fill-available;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Raleway', 'sans-serif';
+	font-weight: 600;
+	font-size: 13px;
+	margin: 2rem;
+	z-index: 2;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	margin-right: 1rem;
+	height: 3rem;
+}
+
+header ul{
+	list-style: none;
+	display: flex;
+}
+
+header ul li{
+	margin: 0 0.5rem;
+}
+
+header ul li a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1;
+}
+
+.hero-image{
+	background-image: url('../assets/christin-hume-0MoF-Fe0w0A-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(16 15 15 / 48%);
+	z-index: 1;
+}
+
+.hero-content-wrap{
+	z-index: 3;
+	text-align: center;
+}
+
+.hero-content-wrap h3{
+	max-width: 36rem;
+	font-size: 2.5rem;
+	line-height: 1.3;
+}
+
+button.appointment-btn{
+	font-family: 'Raleway', 'sans-serif';
+	font-weight: 500;
+	margin: 0 auto;
+	margin-top: 2rem;
+	background-color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+	padding: 0.8rem 2rem;
+	letter-spacing: 1;
+}
+
+.services-wrap{
+	margin: 4rem auto;
+}
+
+.services-wrap .service{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 2rem;
+}
+
+.info,
+.infographic-wrap{
+	max-width: 50vw;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+
+.infographic-wrap img{
+	width: 100%;
+	max-height: 22rem;
+	object-fit: cover;
+	object-position: center;
+}
+
+.name{
+	font-family: 'Raleway', 'sans-serif';
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-size: 24px;
+	letter-spacing: 1;
+}
+
+.description{
+    letter-spacing: .32px;
+    line-height: 24px;
+}
+
+.note{
+	background-color: #f1f4f7;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	padding: 3rem 4rem;
+}
+
+.copyright,
+.hours-of-operation-wrap{
+	padding: 2rem;
+}
+
+.hours-of-operation-wrap{
+	text-align: center;
+	font-family: 'Raleway', 'sans-serif';
+	font-weight: 500;
+	letter-spacing: 1;
+	text-transform: uppercase;
+	min-width: 30rem;
+}
+
+.hours-of-operation-wrap .title{
+	margin-bottom: 2.5rem;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.hours-of-operation-wrap .day-hour-wrap{
+	margin-bottom: 2rem;
+}
+
+.hours-of-operation-wrap .day-hour-wrap .day{
+	margin-bottom: 0.5rem;
+}
+
+.wrap{
+	display: flex;
+}
+
+.wrap-inner{
+	flex-basis: 50%;
+	margin: 0 0.5rem;
+}
+
+.copyright{
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid #eff2f2;
+	font-family: 'Raleway', 'sans-serif';
+	text-transform: uppercase;
+}
