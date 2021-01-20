@@ -50,7 +50,7 @@ header ul li a{
 }
 
 .hero-image{
-	background-image: url('../assets/christin-hume-0MoF-Fe0w0A-unsplash.jpg');
+	background-image: url('../assets/main.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -125,7 +125,12 @@ button.appointment-btn{
 	width: 100%;
 	max-height: 22rem;
 	object-fit: cover;
-	object-position: center;
+	object-position: center 58%;
+}
+
+.infographic-wrap.cupping img,
+.infographic-wrap.relaxation img{
+	object-position: center 80%;
 }
 
 .name{
@@ -180,15 +185,6 @@ footer{
 
 .hours-of-operation-wrap .day-hour-wrap .day{
 	margin-bottom: 0.5rem;
-}
-
-.wrap{
-	display: flex;
-}
-
-.wrap-inner{
-	flex-basis: 50%;
-	margin: 0 0.5rem;
 }
 
 .copyright{
